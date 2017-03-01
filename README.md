@@ -12,4 +12,4 @@ Please see
 [Exploring The Metropolitan Museum of Art's Open Access Initiative dataset](https://avital.ca/notes/exploring-met-museums-openaccess-dataset) for more details
 
 ## UPDATE
-It seems downloads of the SQL file count against my default 1GB Git LFS quota which was maxed out pretty quickly. This bandwidth policy doesn't make sense to me. So if you're running into any issues with Git LFS, I've added the file `met_objects.sql.gz`. Simply do `gunzip met_objects.sql.gz` and you'll get the original file.
+It seems downloads of the SQL file count against my default 1GB Git LFS quota which was maxed out pretty quickly. This prevents me from being able to update the file often. This bandwidth policy doesn't make sense to me, so I'll only be updating the raw file when the billing cycle resets/allows. As an updated alternative, I've added the file `met_objects.sql.gz`. Simply do `gunzip met_objects.sql.gz` and you'll get the original file.
